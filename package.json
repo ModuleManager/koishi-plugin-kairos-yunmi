@@ -1,0 +1,23 @@
+{
+  "name": "koishi-plugin-kairos-yunmi",
+  "description": "A robot for minecraft server.",
+  "version": "1.0.0",
+  "author": "Kairos127",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "minecraft",
+    "yunmi"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.18.3"
+  },
+  "dependencies": {
+    "rcon-client": "^4.2.4"
+  }
+}
